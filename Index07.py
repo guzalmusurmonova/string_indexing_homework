@@ -5,5 +5,10 @@ def main(s,n):
         s(str): parameter
     Returns:
         str: answer
-    """
-    return
+    """  
+    if n<len(s):
+        x=s[n]
+    
+
+    return n<len(s) and x
+print(main('uz',4))

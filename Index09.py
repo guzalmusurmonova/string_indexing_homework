@@ -5,5 +5,10 @@ def main(s):
         s(str): parameter
     Returns:
         int: answer
-    """
-    return
+    """ 
+    if s.isdigit():
+       x=s
+    else :
+        x=-1 
+    return x 
+print(main('4'))
